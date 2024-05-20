@@ -5,7 +5,7 @@
 &soft_off { hold-time-ms = <1000>; };
 
 / {
-    chosen { zmk,matrix-transform = &ansi_transform; };
+    chosen { zmk,matrix-transform = &all_1u_transform; };
 
     combos {
         compatible = "zmk,combos";
