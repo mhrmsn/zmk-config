@@ -24,3 +24,7 @@ There are a few combos available for special behavior. All of them require a one
 * <kbd>M3</kbd> + <kbd>Esc</kbd>: Soft off behavior
 * <kbd>M3</kbd> + <kbd>^</kbd>: Resets keyboard and reruns firmware flashed to the device
 
+# Firmware Update
+1. Download the `.uf2` from the latest successful run on the [Actions tab](https://github.com/mhrmsn/zmk-config/actions).
+2. Connect the keyboard via USB and enter bootloader mode using the <kbd>M3</kbd> + <kbd>^</kbd> + <kbd>⌥</kbd> + <kbd>⌘</kbd> combo. Alternatively press reset button on underside of PCB. The keyboard should mount like a USB drive in Finder.
+3. Drag the `.uf2` onto the drive. The keyboard flashes and reboots automatically.
