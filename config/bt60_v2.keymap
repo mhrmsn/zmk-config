@@ -14,18 +14,21 @@
             bindings = <&bootloader>;
             key-positions = <57 58 56 59>;
             timeout-ms = <1000>;
+            layers = <3>;
         };
 
         soft_off_combo {
             bindings = <&soft_off>;
             key-positions = <56 0>;
             timeout-ms = <1000>;
+            layers = <3>;
         };
 
         sys_reset_combo {
             bindings = <&sys_reset>;
             key-positions = <56 14>;
             timeout-ms = <1000>;
+            layers = <3>;
         };
     };
 

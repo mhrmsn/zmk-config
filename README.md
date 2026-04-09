@@ -18,7 +18,7 @@ Additional Layers:
 <kbd>Backspace</kbd> and <kbd>Delete</kbd> to `Clear current profile` and `Clear all profiles`.
 
 # Combos
-There are a few combos available for special behavior. All of them require a one second press and use the third modifier key <kbd>M3</kbd> (Bluetooth layer):
+There are a few combos available for special behavior. All of them require a one second press and use the third modifier key <kbd>M3</kbd> (Bluetooth layer). <kbd>M3</kbd> must be pressed and held first to activate the Bluetooth layer; only then do the other combo keys register:
 
 * <kbd>M3</kbd> + <kbd>^</kbd> + <kbd>⌥</kbd> + <kbd>⌘</kbd>: Put keyboard in bootloader mode, allowing to flash new firmware
 * <kbd>M3</kbd> + <kbd>Esc</kbd>: Soft off behavior
