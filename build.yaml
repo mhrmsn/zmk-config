@@ -18,4 +18,4 @@
 #
 ---
 include:
-  - board: bt60_v2
+  - board: bt60//zmk
